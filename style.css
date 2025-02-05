@@ -3,7 +3,7 @@ body {
     margin: 0;
     line-height: 1.6;
     color: #333;
-    background-image: url("images/your-background-image.jpg"); /* Path to your image */
+    background-image: url("me.jpg"); /* Path to your image */
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-attachment: fixed; /* Optional: Fixed background on scroll */
