@@ -8,4 +8,41 @@ body {
     background-position: center; /* Center the image */
     background-attachment: fixed; /* Optional: Fixed background on scroll */
 }
+:root {
+    --primary-color: #333; /* Dark gray */
+    --secondary-color: #f0f0f0; /* Light gray */
+    --accent-color: #007bff; /* Blue (example) */
+    --text-color: #fff; /* White text on dark backgrounds */
+}
+
+body {
+    /* ... other styles ... */
+    color: var(--primary-color);
+}
+
+h1, h2, h3 {
+    font-family: 'Your Serif Font', serif; /* Replace with your font */
+}
+
+p, a {
+    font-family: 'Your Sans-Serif Font', sans-serif; /* Replace with your font */
+}
+
+/* Example: Using colors */
+header {
+    background-color: var(--secondary-color);
+}
+
+#hero {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay on image */
+}
+
+.hero-content {
+  color: var(--text-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
 
