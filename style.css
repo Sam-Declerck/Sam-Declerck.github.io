@@ -9,8 +9,8 @@ body {
     background-attachment: fixed; /* Optional: Fixed background on scroll */
 }
 :root {
-    --primary-color: #333; /* Dark gray */
-    --secondary-color: #f0f0f0; /* Light gray */
+    --primary-color: #333; /* White */
+    --secondary-color: #f0f0f0; /* White */
     --accent-color: #007bff; /* Blue (example) */
     --text-color: #fff; /* White text on dark backgrounds */
 }
@@ -21,11 +21,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Your Serif Font', serif; /* Replace with your font */
+    font-family: "Oswald", serif; /* Replace with your font */
 }
 
 p, a {
-    font-family: 'Your Sans-Serif Font', sans-serif; /* Replace with your font */
+    font-family: "Oswald", sans-serif; /* Replace with your font */
 }
 
 /* Example: Using colors */
