@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam Declerck - Portfolio</title>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Your Name</h1>
+                <p>Your tagline or short introduction.</p>
+                </div>
+            <div class="hero-image">
+              <img src="images/hero-image.jpg" alt="Hero Image">
+            </div>
+        </section>
+
         <section id="about">
             <h2>About Me</h2>
-            <p>Write something about yourself here.</p>
+            <div class="about-content">
+              <img src="images/profile.jpg" alt="Your Profile Picture" class="profile-pic">
+              <p>Your detailed bio goes here.  Talk about your skills, experience, and passions.</p>
+            </div>
         </section>
 
         <section id="projects">
-            <h2>My Projects</h2>
-            <p>List your projects here.</p>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Short project description.</p>
+                    <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
+                </div>
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Your contact information.</p>
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
+            <p>GitHub: <a href="#" target="_blank">Your GitHub Profile</a></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Sam Declerck</p>
+      <p>&copy; 2023 Your Name</p>
     </footer>
-</body>
+
+    <script src="script.js"></script> </body>
 </html>
