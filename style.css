@@ -1,7 +1,21 @@
 body {
-  font-family: sans-serif; /* Sets the font for the entire page */
+    font-family: sans-serif; /* Choose a font */
+    margin: 0; /* Remove default margins */
+    padding: 0;
 }
 
-h1 {
-  color: blue; /* Makes the heading blue */
+header {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Make list items horizontal */
+    margin-right: 20px;
 }
